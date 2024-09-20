@@ -1,0 +1,1345 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "system-ui";
+  background-color: #f0f0f0;
+}
+.home {
+  margin-bottom: 5%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  background-image: url(../images/hero-bg.jpg);
+}
+.navbar {
+  font-size: 20px;
+  width: 90%;
+}
+.home .h-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.396);
+  width: 100%;
+  height: 100vh;
+}
+.dropdown-menu a {
+  color: #4e4e4e;
+}
+.dropdown-menu a:hover {
+  color: #007aff;
+}
+.contect h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 300px;
+  color: white;
+}
+.contect h4 {
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  color: white;
+}
+.contect h4::after {
+  position: absolute;
+  left: 650;
+  top: -2;
+  color: white;
+  content: "|";
+  animation: move 7s 1s ease-in-out infinite;
+}
+.x {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  width: 35px;
+  height: 1px;
+}
+.y {
+  cursor: pointer;
+}
+.y a {
+  text-decoration: none;
+}
+.y .yy {
+  width: 0px;
+  height: 1px;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+.y a:hover .yy {
+  width: 40px;
+}
+.im img {
+  border-radius: 5%;
+}
+.About {
+  position: relative;
+  background-color: white;
+  margin: 8% 6%;
+  width: 90%;
+  border: 10px solid white;
+  border-radius: 5px;
+}
+.about-us .k {
+  margin-top: 5px;
+  background-color: #007aff;
+  width: 80px;
+  height: 3px;
+}
+.a {
+  width: 30%;
+  position: absolute;
+  top: 220;
+  left: 40;
+}
+.l1 {
+  margin-left: 48%;
+  background-color: #007aff;
+  width: 4%;
+  height: 0.5%;
+}
+.SERVICES .S-i {
+  color: black;
+  background-color: #ffffff;
+  border: #007aff solid 10px;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 20px 150px;
+}
+.card:hover .S-i {
+  background-color: #007aff;
+  color: white;
+}
+.Work {
+  position: relative;
+  height: 60vh;
+  background-image: url(../images/counters-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.Work .layer {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60vh;
+  background-color: #007bff84;
+}
+.W-i {
+  color: rgb(255, 255, 255);
+  border: white solid 11px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 40px 137px;
+}
+.work-box:hover .work-img img {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.2);
+}
+.Slider {
+  height: 85vh;
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.Slider .laye-r {
+  width: 100%;
+  height: 85vh;
+  background-color: #007bffb9;
+}
+.carousel-item img {
+  border-radius: 50%;
+  width: 10%;
+  margin: 12% 45%;
+  text-align: center;
+}
+.card-title {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.card-title:hover {
+  color: #007aff;
+}
+.FF {
+  position: relative;
+}
+.F {
+  position: absolute;
+  top: 255;
+  left: 0;
+  margin-left: 42%;
+  width: 15%;
+  height: 9%;
+  border-radius: 4px;
+  background-color: #007aff;
+}
+.B {
+  height: 3rem;
+  width: 100%;
+  border: 3px solid #f2f2f265;
+  background-color: #f1f1f3;
+  border-radius: 5px;
+}
+.B img {
+  margin: 1% 0%;
+  height: 100%;
+  width: 10%;
+  border-radius: 50%;
+}
+.C {
+  margin-left: 30%;
+}
+.Contact {
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 85vh;
+}
+.la {
+  width: 100%;
+  height: 85vh;
+  background-color: #007bffbd;
+}
+.b-x {
+  position: relative;
+  margin: 7% auto;
+  width: 70%;
+  background-color: white;
+  border-radius: 2px;
+}
+.ne {
+  position: absolute;
+  top: 65;
+  left: 25;
+  width: 120px;
+  height: 3px;
+  background-color: #007aff;
+}
+.g {
+  position: absolute;
+  top: 65;
+  left: 545;
+  width: 120px;
+  height: 3px;
+  background-color: #007aff;
+}
+form button {
+  margin-top: 2%;
+  height: 6vh;
+  border: #007aff solid 2px;
+  border-radius: 20px;
+  background-color: #007aff;
+  color: white;
+}
+form button:hover {
+  background-color: #007bffbb;
+}
+.fa {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.bb {
+  cursor: pointer;
+}
+@keyframes move {
+  0% {
+    left: 650;
+    top: -2;
+    transition-delay: 1s;
+    content: "|";
+  }
+  2% {
+    left: 650;
+    top: -2;
+    content: "D|";
+  }
+  4% {
+    left: 650;
+    top: -2;
+    content: "De|";
+  }
+  6% {
+    left: 650;
+    top: -2;
+    content: "Des|";
+  }
+  8% {
+    left: 650;
+    top: -2;
+    content: "Desi|";
+  }
+  10% {
+    left: 650;
+    top: -2;
+    content: "Desig|";
+  }
+  12% {
+    left: 650;
+    top: -2;
+    content: "Design|";
+  }
+  14% {
+    left: 650;
+    top: -2;
+    content: "Designe| ";
+  }
+  16% {
+    left: 650;
+    top: -2;
+    content: "Designer |";
+  }
+  18% {
+    left: 650;
+    top: -2;
+    transition-delay: 1s;
+    content: "|";
+  }
+  20% {
+    left: 650;
+    top: -2;
+    content: "D |";
+  }
+  22% {
+    left: 650;
+    top: -2;
+    content: "De |";
+  }
+  24% {
+    left: 650;
+    top: -2;
+    content: "Dev |";
+  }
+  26% {
+    left: 650;
+    top: -2;
+    content: "Deve |";
+  }
+  28% {
+    left: 650;
+    top: -2;
+    content: "Devel |";
+  }
+  30% {
+    left: 650;
+    top: -2;
+    content: "Develo |";
+  }
+  32% {
+    left: 650;
+    top: -2;
+    content: "Develop |";
+  }
+  34% {
+    left: 650;
+    top: -2;
+    content: "Develope |";
+  }
+  36% {
+    left: 650;
+    top: -2;
+    content: "Developer |";
+  }
+  38% {
+    left: 650;
+    top: -2;
+    transition-delay: 1s;
+    content: "|";
+  }
+  40% {
+    left: 650;
+    top: -2;
+    content: "F |";
+  }
+  42% {
+    left: 650;
+    top: -2;
+    content: "Fr |";
+  }
+  44% {
+    left: 650;
+    top: -2;
+    content: "Free |";
+  }
+  46% {
+    left: 650;
+    top: -2;
+    content: "Free L |";
+  }
+  48% {
+    left: 650;
+    top: -2;
+    content: "Free La |";
+  }
+  50% {
+    left: 650;
+    top: -2;
+    content: "Free Lan |";
+  }
+  52% {
+    left: 650;
+    top: -2;
+    content: "Free Lanc |";
+  }
+  54% {
+    left: 650;
+    top: -2;
+    content: "Free Lance |";
+  }
+  56% {
+    left: 650;
+    top: -2;
+    content: "Free Lancer|";
+  }
+  58% {
+    left: 650;
+    top: -2;
+    transition-delay: 1s;
+    content: "|";
+  }
+  60% {
+    left: 650;
+    top: -2;
+    content: "P |";
+  }
+  62% {
+    left: 650;
+    top: -2;
+    content: "Ph |";
+  }
+  64% {
+    left: 650;
+    top: -2;
+    content: "Pho |";
+  }
+  66% {
+    left: 650;
+    top: -2;
+    content: "Phot |";
+  }
+  68% {
+    left: 650;
+    top: -2;
+    content: "Photo |";
+  }
+  70% {
+    left: 650;
+    top: -2;
+    content: "Photo G |";
+  }
+  72% {
+    left: 650;
+    top: -2;
+    content: "Photo Gr |";
+  }
+  74% {
+    left: 650;
+    top: -2;
+    content: "Photo Gra |";
+  }
+  76% {
+    left: 650;
+    top: -2;
+    content: "Photo Grap |";
+  }
+  78% {
+    left: 650;
+    top: -2;
+    content: "Photo Graph |";
+  }
+  80% {
+    left: 650;
+    top: -2;
+    content: "Photo Graphe |";
+  }
+  82% {
+    left: 650;
+    top: -2;
+    content: "Photo Grapher |";
+  }
+}
+@media screen and (max-width: 1280px) {
+  @keyframes move {
+    0% {
+      left: 650;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    2% {
+      left: 650;
+      top: -2;
+      content: "D|";
+    }
+    4% {
+      left: 650;
+      top: -2;
+      content: "De|";
+    }
+    6% {
+      left: 650;
+      top: -2;
+      content: "Des|";
+    }
+    8% {
+      left: 650;
+      top: -2;
+      content: "Desi|";
+    }
+    10% {
+      left: 650;
+      top: -2;
+      content: "Desig|";
+    }
+    12% {
+      left: 650;
+      top: -2;
+      content: "Design|";
+    }
+    14% {
+      left: 650;
+      top: -2;
+      content: "Designe| ";
+    }
+    16% {
+      left: 650;
+      top: -2;
+      content: "Designer |";
+    }
+    18% {
+      left: 650;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    20% {
+      left: 650;
+      top: -2;
+      content: "D |";
+    }
+    22% {
+      left: 650;
+      top: -2;
+      content: "De |";
+    }
+    24% {
+      left: 650;
+      top: -2;
+      content: "Dev |";
+    }
+    26% {
+      left: 650;
+      top: -2;
+      content: "Deve |";
+    }
+    28% {
+      left: 650;
+      top: -2;
+      content: "Devel |";
+    }
+    30% {
+      left: 650;
+      top: -2;
+      content: "Develo |";
+    }
+    32% {
+      left: 650;
+      top: -2;
+      content: "Develop |";
+    }
+    34% {
+      left: 650;
+      top: -2;
+      content: "Develope |";
+    }
+    36% {
+      left: 650;
+      top: -2;
+      content: "Developer |";
+    }
+    38% {
+      left: 650;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    40% {
+      left: 650;
+      top: -2;
+      content: "F |";
+    }
+    42% {
+      left: 650;
+      top: -2;
+      content: "Fr |";
+    }
+    44% {
+      left: 650;
+      top: -2;
+      content: "Free |";
+    }
+    46% {
+      left: 650;
+      top: -2;
+      content: "Free L |";
+    }
+    48% {
+      left: 650;
+      top: -2;
+      content: "Free La |";
+    }
+    50% {
+      left: 650;
+      top: -2;
+      content: "Free Lan |";
+    }
+    52% {
+      left: 650;
+      top: -2;
+      content: "Free Lanc |";
+    }
+    54% {
+      left: 650;
+      top: -2;
+      content: "Free Lance |";
+    }
+    56% {
+      left: 650;
+      top: -2;
+      content: "Free Lancer|";
+    }
+    58% {
+      left: 650;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    60% {
+      left: 650;
+      top: -2;
+      content: "P |";
+    }
+    62% {
+      left: 650;
+      top: -2;
+      content: "Ph |";
+    }
+    64% {
+      left: 650;
+      top: -2;
+      content: "Pho |";
+    }
+    66% {
+      left: 650;
+      top: -2;
+      content: "Phot |";
+    }
+    68% {
+      left: 650;
+      top: -2;
+      content: "Photo |";
+    }
+    70% {
+      left: 650;
+      top: -2;
+      content: "Photo G |";
+    }
+    72% {
+      left: 650;
+      top: -2;
+      content: "Photo Gr |";
+    }
+    74% {
+      left: 650;
+      top: -2;
+      content: "Photo Gra |";
+    }
+    76% {
+      left: 650;
+      top: -2;
+      content: "Photo Grap |";
+    }
+    78% {
+      left: 650;
+      top: -2;
+      content: "Photo Graph |";
+    }
+    80% {
+      left: 650;
+      top: -2;
+      content: "Photo Graphe |";
+    }
+    82% {
+      left: 650;
+      top: -2;
+      content: "Photo Grapher |";
+    }
+  }
+  .About {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 980px) {
+  @keyframes move {
+    0% {
+      left: 500;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    2% {
+      left: 500;
+      top: -2;
+      content: "D|";
+    }
+    4% {
+      left: 500;
+      top: -2;
+      content: "De|";
+    }
+    6% {
+      left: 500;
+      top: -2;
+      content: "Des|";
+    }
+    8% {
+      left: 500;
+      top: -2;
+      content: "Desi|";
+    }
+    10% {
+      left: 500;
+      top: -2;
+      content: "Desig|";
+    }
+    12% {
+      left: 500;
+      top: -2;
+      content: "Design|";
+    }
+    14% {
+      left: 500;
+      top: -2;
+      content: "Designe| ";
+    }
+    16% {
+      left: 500;
+      top: -2;
+      content: "Designer |";
+    }
+    18% {
+      left: 500;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    20% {
+      left: 500;
+      top: -2;
+      content: "D |";
+    }
+    22% {
+      left: 500;
+      top: -2;
+      content: "De |";
+    }
+    24% {
+      left: 500;
+      top: -2;
+      content: "Dev |";
+    }
+    26% {
+      left: 500;
+      top: -2;
+      content: "Deve |";
+    }
+    28% {
+      left: 500;
+      top: -2;
+      content: "Devel |";
+    }
+    30% {
+      left: 500;
+      top: -2;
+      content: "Develo |";
+    }
+    32% {
+      left: 500;
+      top: -2;
+      content: "Develop |";
+    }
+    34% {
+      left: 500;
+      top: -2;
+      content: "Develope |";
+    }
+    36% {
+      left: 500;
+      top: -2;
+      content: "Developer |";
+    }
+    38% {
+      left: 500;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    40% {
+      left: 500;
+      top: -2;
+      content: "F |";
+    }
+    42% {
+      left: 500;
+      top: -2;
+      content: "Fr |";
+    }
+    44% {
+      left: 500;
+      top: -2;
+      content: "Free |";
+    }
+    46% {
+      left: 500;
+      top: -2;
+      content: "Free L |";
+    }
+    48% {
+      left: 500;
+      top: -2;
+      content: "Free La |";
+    }
+    50% {
+      left: 500;
+      top: -2;
+      content: "Free Lan |";
+    }
+    52% {
+      left: 500;
+      top: -2;
+      content: "Free Lanc |";
+    }
+    54% {
+      left: 500;
+      top: -2;
+      content: "Free Lance |";
+    }
+    56% {
+      left: 500;
+      top: -2;
+      content: "Free Lancer|";
+    }
+    58% {
+      left: 500;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    60% {
+      left: 500;
+      top: -2;
+      content: "P |";
+    }
+    62% {
+      left: 500;
+      top: -2;
+      content: "Ph |";
+    }
+    64% {
+      left: 500;
+      top: -2;
+      content: "Pho |";
+    }
+    66% {
+      left: 500;
+      top: -2;
+      content: "Phot |";
+    }
+    68% {
+      left: 500;
+      top: -2;
+      content: "Photo |";
+    }
+    70% {
+      left: 500;
+      top: -2;
+      content: "Photo G |";
+    }
+    72% {
+      left: 500;
+      top: -2;
+      content: "Photo Gr |";
+    }
+    74% {
+      left: 500;
+      top: -2;
+      content: "Photo Gra |";
+    }
+    76% {
+      left: 500;
+      top: -2;
+      content: "Photo Grap |";
+    }
+    78% {
+      left: 500;
+      top: -2;
+      content: "Photo Graph |";
+    }
+    80% {
+      left: 500;
+      top: -2;
+      content: "Photo Graphe |";
+    }
+    82% {
+      left: 500;
+      top: -2;
+      content: "Photo Grapher |";
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  @keyframes move {
+    0% {
+      left: 400;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    2% {
+      left: 400;
+      top: -2;
+      content: "D|";
+    }
+    4% {
+      left: 400;
+      top: -2;
+      content: "De|";
+    }
+    6% {
+      left: 400;
+      top: -2;
+      content: "Des|";
+    }
+    8% {
+      left: 400;
+      top: -2;
+      content: "Desi|";
+    }
+    10% {
+      left: 400;
+      top: -2;
+      content: "Desig|";
+    }
+    12% {
+      left: 400;
+      top: -2;
+      content: "Design|";
+    }
+    14% {
+      left: 400;
+      top: -2;
+      content: "Designe| ";
+    }
+    16% {
+      left: 400;
+      top: -2;
+      content: "Designer |";
+    }
+    18% {
+      left: 400;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    20% {
+      left: 400;
+      top: -2;
+      content: "D |";
+    }
+    22% {
+      left: 400;
+      top: -2;
+      content: "De |";
+    }
+    24% {
+      left: 400;
+      top: -2;
+      content: "Dev |";
+    }
+    26% {
+      left: 400;
+      top: -2;
+      content: "Deve |";
+    }
+    28% {
+      left: 400;
+      top: -2;
+      content: "Devel |";
+    }
+    30% {
+      left: 400;
+      top: -2;
+      content: "Develo |";
+    }
+    32% {
+      left: 400;
+      top: -2;
+      content: "Develop |";
+    }
+    34% {
+      left: 400;
+      top: -2;
+      content: "Develope |";
+    }
+    36% {
+      left: 400;
+      top: -2;
+      content: "Developer |";
+    }
+    38% {
+      left: 400;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    40% {
+      left: 400;
+      top: -2;
+      content: "F |";
+    }
+    42% {
+      left: 400;
+      top: -2;
+      content: "Fr |";
+    }
+    44% {
+      left: 400;
+      top: -2;
+      content: "Free |";
+    }
+    46% {
+      left: 400;
+      top: -2;
+      content: "Free L |";
+    }
+    48% {
+      left: 400;
+      top: -2;
+      content: "Free La |";
+    }
+    50% {
+      left: 400;
+      top: -2;
+      content: "Free Lan |";
+    }
+    52% {
+      left: 400;
+      top: -2;
+      content: "Free Lanc |";
+    }
+    54% {
+      left: 400;
+      top: -2;
+      content: "Free Lance |";
+    }
+    56% {
+      left: 400;
+      top: -2;
+      content: "Free Lancer|";
+    }
+    58% {
+      left: 400;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    60% {
+      left: 400;
+      top: -2;
+      content: "P |";
+    }
+    62% {
+      left: 400;
+      top: -2;
+      content: "Ph |";
+    }
+    64% {
+      left: 400;
+      top: -2;
+      content: "Pho |";
+    }
+    66% {
+      left: 400;
+      top: -2;
+      content: "Phot |";
+    }
+    68% {
+      left: 400;
+      top: -2;
+      content: "Photo |";
+    }
+    70% {
+      left: 400;
+      top: -2;
+      content: "Photo G |";
+    }
+    72% {
+      left: 400;
+      top: -2;
+      content: "Photo Gr |";
+    }
+    74% {
+      left: 400;
+      top: -2;
+      content: "Photo Gra |";
+    }
+    76% {
+      left: 400;
+      top: -2;
+      content: "Photo Grap |";
+    }
+    78% {
+      left: 400;
+      top: -2;
+      content: "Photo Graph |";
+    }
+    80% {
+      left: 400;
+      top: -2;
+      content: "Photo Graphe |";
+    }
+    82% {
+      left: 400;
+      top: -2;
+      content: "Photo Grapher |";
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  @keyframes move {
+    0% {
+      left: 100;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    2% {
+      left: 100;
+      top: -2;
+      content: "D|";
+    }
+    4% {
+      left: 100;
+      top: -2;
+      content: "De|";
+    }
+    6% {
+      left: 100;
+      top: -2;
+      content: "Des|";
+    }
+    8% {
+      left: 100;
+      top: -2;
+      content: "Desi|";
+    }
+    10% {
+      left: 100;
+      top: -2;
+      content: "Desig|";
+    }
+    12% {
+      left: 100;
+      top: -2;
+      content: "Design|";
+    }
+    14% {
+      left: 100;
+      top: -2;
+      content: "Designe| ";
+    }
+    16% {
+      left: 100;
+      top: -2;
+      content: "Designer |";
+    }
+    18% {
+      left: 100;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    20% {
+      left: 100;
+      top: -2;
+      content: "D |";
+    }
+    22% {
+      left: 100;
+      top: -2;
+      content: "De |";
+    }
+    24% {
+      left: 100;
+      top: -2;
+      content: "Dev |";
+    }
+    26% {
+      left: 100;
+      top: -2;
+      content: "Deve |";
+    }
+    28% {
+      left: 100;
+      top: -2;
+      content: "Devel |";
+    }
+    30% {
+      left: 100;
+      top: -2;
+      content: "Develo |";
+    }
+    32% {
+      left: 100;
+      top: -2;
+      content: "Develop |";
+    }
+    34% {
+      left: 100;
+      top: -2;
+      content: "Develope |";
+    }
+    36% {
+      left: 100;
+      top: -2;
+      content: "Developer |";
+    }
+    38% {
+      left: 100;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    40% {
+      left: 100;
+      top: -2;
+      content: "F |";
+    }
+    42% {
+      left: 100;
+      top: -2;
+      content: "Fr |";
+    }
+    44% {
+      left: 100;
+      top: -2;
+      content: "Free |";
+    }
+    46% {
+      left: 100;
+      top: -2;
+      content: "Free L |";
+    }
+    48% {
+      left: 100;
+      top: -2;
+      content: "Free La |";
+    }
+    50% {
+      left: 100;
+      top: -2;
+      content: "Free Lan |";
+    }
+    52% {
+      left: 100;
+      top: -2;
+      content: "Free Lanc |";
+    }
+    54% {
+      left: 100;
+      top: -2;
+      content: "Free Lance |";
+    }
+    56% {
+      left: 100;
+      top: -2;
+      content: "Free Lancer|";
+    }
+    58% {
+      left: 100;
+      top: -2;
+      transition-delay: 1s;
+      content: "|";
+    }
+    60% {
+      left: 100;
+      top: -2;
+      content: "P |";
+    }
+    62% {
+      left: 100;
+      top: -2;
+      content: "Ph |";
+    }
+    64% {
+      left: 100;
+      top: -2;
+      content: "Pho |";
+    }
+    66% {
+      left: 100;
+      top: -2;
+      content: "Phot |";
+    }
+    68% {
+      left: 100;
+      top: -2;
+      content: "Photo |";
+    }
+    70% {
+      left: 100;
+      top: -2;
+      content: "Photo G |";
+    }
+    72% {
+      left: 100;
+      top: -2;
+      content: "Photo Gr |";
+    }
+    74% {
+      left: 100;
+      top: -2;
+      content: "Photo Gra |";
+    }
+    76% {
+      left: 100;
+      top: -2;
+      content: "Photo Grap |";
+    }
+    78% {
+      left: 100;
+      top: -2;
+      content: "Photo Graph |";
+    }
+    80% {
+      left: 100;
+      top: -2;
+      content: "Photo Graphe |";
+    }
+    82% {
+      left: 100;
+      top: -2;
+      content: "Photo Grapher |";
+    }
+  }
+}
